@@ -38,7 +38,29 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
     color: var(--grey);
 }
+h6{
+    line-height: 150% !important;
+}
 .cont{
     max-width: 90vw;
     margin-inline: auto;
+}
+.fold{
+    height: 100vh;
+}
+.btn-fill{
+    margin-block: 1em;
+    padding-block: 1em;
+    padding-inline: 3em;
+    border-radius:50px;
+    border:none;
+    font-weight: bold;
+    color: white;
+}
+.btn-fill-circle{
+    border-radius: 100px;
+    border: none;
+    color: white;
+    width: 3.5em;
+    height: 3.5em;
 }
