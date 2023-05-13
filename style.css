@@ -42,7 +42,7 @@ h6{
     line-height: 150% !important;
 }
 .cont{
-    max-width: 90vw;
+    width: 90vw;
     margin-inline: auto;
 }
 .fold{
