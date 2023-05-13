@@ -39,23 +39,25 @@ h1,h2,h3,h4,h5,h6{
     color: var(--grey);
 }
 h6{
-    line-height: 150% !important;
+    line-height: 170% !important;
 }
 .cont{
-    width: 90vw;
+    width: 85vw;
     margin-inline: auto;
 }
 .fold{
     height: 100vh;
+    box-sizing: border-box;
 }
 .btn-fill{
-    margin-block: 1em;
     padding-block: 1em;
     padding-inline: 3em;
     border-radius:50px;
     border:none;
     font-weight: bold;
     color: white;
+    box-sizing: border-box !important;
+    display: inline;
 }
 .btn-fill-circle{
     border-radius: 100px;
@@ -63,4 +65,8 @@ h6{
     color: white;
     width: 3.5em;
     height: 3.5em;
+    box-sizing: border-box;
+}
+.shdw{
+    box-shadow: 0px 0px 12px rgb(213, 212, 212);
 }
