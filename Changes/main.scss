@@ -1,4 +1,38 @@
 // Custom Variables
 $h1-font-size: 4em;
-
+@mixin caret($direction: down) {
+    @if $enable-caret {
+      &::after {
+        float: right;
+        margin-left: $caret-spacing;
+        vertical-align: $caret-vertical-align;
+        content: "";
+        @if $direction == down {
+          @include caret-down();
+        } @else if $direction == up {
+          @include caret-up();
+        } @else if $direction == end {
+          @include caret-end();
+        }
+      }
+  
+      @if $direction == start {
+        &::after {
+          display: none;
+        }
+  
+        &::before {
+          display: inline-block;
+          margin-right: $caret-spacing;
+          vertical-align: $caret-vertical-align;
+          content: "";
+          @include caret-start();
+        }
+      }
+  
+      &:empty::after {
+        margin-left: 0;
+      }
+    }
+  }
 @import '../node_modules/bootstrap/scss/bootstrap.scss'
