@@ -108,5 +108,7 @@ h6{
     grid-row: 1 / 2;
 }
 .grey-sec{
-    background-color: #f5f9fc;
+    background-color: #f2f2f2;
+}
+.input-field{
 }
