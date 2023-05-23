@@ -110,5 +110,23 @@ h6{
 .grey-sec{
     background-color: #f2f2f2;
 }
-.input-field{
+@media screen and (min-width: 768px) {
+    .cont{
+        width: 80vw!important;
+        max-width: 1440px!important;
+        margin-inline: auto;
+    }
+  }
+.header-dropdown{
+    padding: 0%!important;
+    margin-bottom: 0.5rem;
+    border: none!important;
+}
+.dropdown-menu-custom{
+    border-top: 0.25em solid var(--red);
+    list-style: none;
+    padding: 0px;
+}
+.dropdown-menu-custom li{
+    padding: 0.5em;
 }
