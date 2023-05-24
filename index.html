@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <div class="fold d-flex flex-column">
-        <!-- CONTAINER -->
+    <div class="d-flex flex-column">
         <div class="bg-blue py-2">
             <div class="cont">
                 <div class="d-md-flex align-items-center">
@@ -35,105 +34,135 @@
                 </div>
             </div>  
         </div>
-        <!-- CONTAINER -->
-        <div class="bg-white py-2 mb-auto">
-            <div class="cont py-4 d-flex justify-content-between align-items-center">
+        <div class="bg-white py-2">
+            <div class="cont py-2 d-flex justify-content-between align-items-center">
                 <img src="/images/logo.png" alt="Logo">
-                <div class="d-md-flex">
-                    <h5 class="h5 red fw-bold px-2">Home</h5>
-                    <h5 class="h5 black fw-bold px-2">About</h5>
-                    <h5 class="h5 black fw-bold px-2">Service</h5>
+                <div class="d-md-flex align-items-end d-sm-none">
+                    <h5 class="h5 m-0 red fw-bold px-2">Home</h5>
+                    <h5 class="h5 m-0 black fw-bold px-2">About</h5>
+                    <h5 class="h5 m-0 black fw-bold px-2">Service</h5>
                     <div class="dropdown">
-                        <button class="btn header-dropdown px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn p-0  px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                           <h5 class="h5 black d-inline fw-bold">Department</h5>
-                          <i class="fa-solid fa-chevron-right"></i>
+                          <i class="fa-solid fa-chevron-down"></i>
                         </button>
-                        <ul class="dropdown-menu-custom">
-                          <li><a class="dropdown-item" href="#">Departments</a></li>
-                          <li><a class="dropdown-item" href="#">Department Single</a></li>
-                          <li><a class="dropdown-item" href="#">Submenu</a></li>
+                        <ul class="dropdown-menu p-0 rounded-0">
+                          <li><a class="dropdown-item p-2" href="#">Departments</a></li>
+                          <li><a class="dropdown-item p-2 border-top border-bottom" href="#">Department Single</a></li>
+                          <li><a class="dropdown-item p-2" href="#">Submenu <i style="font-size: 0.8em;" class="fa-solid fa-chevron-right"></i></a></li>
                         </ul>
                       </div>
-                    <h5 class="h5 black fw-bold">Contact</h5>
+                      <div class="dropdown">
+                        <button class="btn p-0  px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <h5 class="h5 black d-inline fw-bold">Doctors</h5>
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu p-0 rounded-0">
+                          <li><a class="dropdown-item p-2" href="#">Departments</a></li>
+                          <li><a class="dropdown-item p-2 border-top border-bottom" href="#">Department Single</a></li>
+                          <li><a class="dropdown-item p-2" href="#">Submenu <i style="font-size: 0.8em;" class="fa-solid fa-chevron-right"></i></a></li>
+                        </ul>
+                      </div>
+                      <div class="dropdown">
+                        <button class="btn p-0  px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <h5 class="h5 black d-inline fw-bold">Blog</h5>
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu p-0 rounded-0">
+                          <li><a class="dropdown-item p-2" href="#">Departments</a></li>
+                          <li><a class="dropdown-item p-2 border-top border-bottom" href="#">Department Single</a></li>
+                          <li><a class="dropdown-item p-2" href="#">Submenu <i style="font-size: 0.8em;" class="fa-solid fa-chevron-right"></i></a></li>
+                        </ul>
+                      </div>
+                    <h5 class="h5 m-0 ps-2 black fw-bold">Contact</h5>
                 </div>
                 <i class="fs-2 fa-solid fa-bars black align-self-center d-md-none"></i>
             </div>
         </div>
-        <!-- CONTAINER -->
-        <div class="cont pe-5 ">
+        <div class="">
+            <img 
+            class="bg-img z-n1"
+            src="/images/bg/slider-bg-1.jpg" alt="">
             <div>
-                <div class="bg-red mb-2" style="height: 0.4em; width: 4em;"></div>
-                <h5 class="h5 py-1 grey fw-">TOTAL HEALTHCARE SOLUTIONS</h5>
+                <div class="cont pe-5 py-5 mt-3">
+                    <div class="max-width">
+                        <div>
+                            <div class="bg-red mb-2" style="height: 0.4em; width: 4em;"></div>
+                            <h5 class="h5 py-1 grey fw-">TOTAL HEALTHCARE SOLUTIONS</h5>
+                        </div>
+                        <h1 class="h1 pb-auto fw-bold blue">Your Most Trusted Health Partner</h1>
+                        <h6 class="h6 grey pe-5">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, veniam neque, 
+                            natus earum odio ipsa dolor, corporis recusandae facere 
+                        </h6>
+                    </div>
+                </div>
+                <div class="d-flex cont mb-4">
+                    <button class="btn-fill bg-red me-auto">
+                        MAKE APPOINTMENT
+                        <i class="fa-solid fa-chevron-right ps-4"></i>
+                    </button>
+                    <button class="d-md-none btn-fill-circle bg-blue align-self-end">
+                        <i class="fa-solid fa-arrow-up-long "></i>
+                    </button>
+                </div>
             </div>
-            <h1 class="h1 pb-auto fw-bold blue">Your Most Trusted Health Partner</h1>
-            <h6 class="h6 grey pe-5">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, veniam neque, 
-                natus earum odio ipsa dolor, corporis recusandae facere 
-            </h6>
-        </div>
-        <!-- CONTAINER -->
-        <div class="d-flex cont mb-4">
-            <button class="btn-fill bg-red me-auto">
-                MAKE APPOINTMENT
-                <i class="fa-solid fa-chevron-right ps-4"></i>
-            </button>
-            <button class="btn-fill-circle bg-blue align-self-end">
-                <i class="fa-solid fa-arrow-up-long "></i>
-            </button>
         </div>
     </div>
-    <div class="cont d-flex flex-column mt-5">
-        <div class="shdw p-5 rounded-4 mb-5">
-            <i class="fa-solid fa-user-doctor fs-1 blue"></i>
-            <h5 class="h5 grey mt-4">24 Hour Service</h5>
-            <h4 class="h4 blue fw-bold">Online Appointment</h4>
-            <h6 class="h6 pt-4 mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eaque voluptatibus error nobis 
-            </h6>
-            <div class="btn-fill bg-blue mt-5">MAKE A APPOINTMENT</div>
-        </div>
-        <div class="shdw p-5 rounded-4 mb-5">
-            <i class="fa-solid fa-clock fs-1 blue"></i>
-            <h5 class="h5 grey mt-4">Timing Schedule</h5>
-            <h4 class="h4 blue fw-bold">Working Hours</h4>
-            <table class="table mb-0">
-                <tbody>
-                    <tr>
-                        <td>
-                            <h6 class="h6 mb-0">Sun-Wed</h6>
-                        </td>
-                        <td>
-                            <h6 class="h6 float-end mb-0">8:00-17:00</h6>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h6 class="h6 mb-0">Thu-Fri</h6>
-                        </td>
-                        <td>
-                            <h6 class="h6 float-end mb-0">9:00-17:00</h6>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h6 class="h6 mb-0">Sat-Sun</h6>
-                        </td>
-                        <td>
-                            <h6 class="h6 float-end mb-0">10:00-17:00</h6>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="shdw p-5 rounded-4 mb-5">
-            <i class="fa-solid fa-headset blue fs-1"></i>
-            <h5 class="h5 grey mt-4">Emergency Cases</h5>
-            <h4 class="h4 blue fw-bold">1-800-700-6200</h4>
-            <h6 class="h6 pt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eaque voluptatibus error nobis 
-            </h6>
+    <div class="cont">
+        <div class="mt-5 row gx-2">
+            <div class="shdw p-5 rounded-4 mb-5 bg-white col-md-4">
+                <i class="fa-solid fa-user-doctor fs-1 blue"></i>
+                <h5 class="h5 grey mt-4">24 Hour Service</h5>
+                <h4 class="h4 blue fw-bold">Online Appointment</h4>
+                <h6 class="h6 pt-4 mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque voluptatibus error nobis 
+                </h6>
+                <div class="btn-fill bg-blue mt-5">MAKE A APPOINTMENT</div>
+            </div>
+            <div class="shdw p-5 rounded-4 mb-5 bg-white col-md-4">
+                <i class="fa-solid fa-clock fs-1 blue"></i>
+                <h5 class="h5 grey mt-4">Timing Schedule</h5>
+                <h4 class="h4 blue fw-bold">Working Hours</h4>
+                <table class="table mb-0">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h6 class="h6 mb-0">Sun-Wed</h6>
+                            </td>
+                            <td>
+                                <h6 class="h6 float-end mb-0">8:00-17:00</h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h6 class="h6 mb-0">Thu-Fri</h6>
+                            </td>
+                            <td>
+                                <h6 class="h6 float-end mb-0">9:00-17:00</h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h6 class="h6 mb-0">Sat-Sun</h6>
+                            </td>
+                            <td>
+                                <h6 class="h6 float-end mb-0">10:00-17:00</h6>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="shdw p-5 rounded-4 mb-5 bg-white col-md-4">
+                <i class="fa-solid fa-headset blue fs-1"></i>
+                <h5 class="h5 grey mt-4">Emergency Cases</h5>
+                <h4 class="h4 blue fw-bold">1-800-700-6200</h4>
+                <h6 class="h6 pt-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque voluptatibus error nobis 
+                </h6>
+            </div>
         </div>
     </div>
     <div class="cont d-flex flex-column mt-5">

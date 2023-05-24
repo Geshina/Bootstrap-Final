@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    overflow-x: hidden;
+}
 :root{
     --blue:#293966;
     --red:#d42456;
@@ -117,16 +120,24 @@ h6{
         margin-inline: auto;
     }
   }
-.header-dropdown{
-    padding: 0%!important;
-    margin-bottom: 0.5rem;
+.dropdown-menu {
+    border: none!important;
+    border-top: 0.5em solid var(--red)!important;
+    margin-top: 0.5em!important;
+}
+.dropdown::content {
     border: none!important;
 }
-.dropdown-menu-custom{
-    border-top: 0.25em solid var(--red);
-    list-style: none;
-    padding: 0px;
+.btn{
+    border: none!important;
 }
-.dropdown-menu-custom li{
-    padding: 0.5em;
+.main-img{
+    width: 100vw;
+}
+.max-width{
+    max-width: 700px!important;
+}
+.bg-img{
+    width: 100vw;
+    position: absolute;
 }
